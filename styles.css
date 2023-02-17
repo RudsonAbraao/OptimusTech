@@ -1,0 +1,14 @@
+@import url(./styles/cabecalho.css);
+
+:root {
+    --branco: #ffffff;
+    --fonte-principal: "Inter";
+    --azul-claro: #667085;
+    --azul-escuro: #3A404E;
+    --vermelho : #8E2424;
+}
+
+body{
+    font-family: var(--fonte-principal);
+
+}
