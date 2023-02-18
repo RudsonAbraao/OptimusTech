@@ -1,14 +1,17 @@
 @import url(./styles/cabecalho.css);
+@import url(./styles/apresentacao.css);
 
 :root {
     --branco: #ffffff;
     --fonte-principal: "Inter";
-    --azul-claro: #667085;
+    --cinza: #667085;
     --azul-escuro: #3A404E;
     --vermelho : #8E2424;
+    --preto-azulado: #101828;
 }
 
 body{
     font-family: var(--fonte-principal);
+    box-sizing: border-box;
 
 }

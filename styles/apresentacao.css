@@ -1,0 +1,27 @@
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8em 0;
+}
+
+.apresentacao__descricao {
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.apresentacao__titulo {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--preto-azulado);
+    margin: 1em 0;
+}
+
+.apresentacao__texto {
+    font-size: 20px;
+    color: var(--cinza);
+    text-align: center;
+    width: 55vw;
+    line-height: 30px;
+}
