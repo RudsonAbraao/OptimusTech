@@ -1,0 +1,38 @@
+.vagas {
+    margin: 0 auto;
+    width: 768px;
+}
+
+.vagas__titulo {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 4em 0 1em 0;
+}
+
+.vagas__lista {
+    display: grid;
+    grid-template-areas: 
+        "titulo titulo"
+        "time salario"
+    ;
+    gap: 1.5em 1.5em;
+    margin: 1em 0;
+    padding: 2em 1em;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    grid-template-columns: auto 1fr;
+    
+}
+
+.vagas__lista--titulo{
+    grid-area: titulo;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto-azulado);
+}
+
+.vagas__lista--descricao {
+    color: var(--cinza);
+    font-weight: 500;
+
+}

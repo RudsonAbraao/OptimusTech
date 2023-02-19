@@ -1,0 +1,28 @@
+.talentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#vagas__abertas {
+    background: var(--vermelho-degrade);
+    padding: .5em;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vermelho);
+    margin: 12em 0 2em 0;
+}
+
+.talentos__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--preto-azulado);
+    margin-bottom: .5em;
+}
+
+.talentos__texto {
+    color: var(--cinza);
+    font-size: 20px;
+    margin-bottom: 2em;
+}
