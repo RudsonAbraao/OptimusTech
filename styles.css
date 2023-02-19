@@ -1,5 +1,6 @@
 @import url(./styles/cabecalho.css);
 @import url(./styles/apresentacao.css);
+@import url(./styles/dados.css);
 
 :root {
     --branco: #ffffff;
@@ -13,5 +14,6 @@
 body{
     font-family: var(--fonte-principal);
     box-sizing: border-box;
+    width: 1440px;
 
 }

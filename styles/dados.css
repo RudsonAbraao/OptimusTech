@@ -1,0 +1,27 @@
+.dados {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 3em;
+}
+
+.dados__container {
+    width: 280px;
+}
+
+.dados__numeros {
+    font-size: 60px;
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.dados__titulo {
+    color: var(--preto-azulado);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.dados__texto {
+    color: var(--cinza);
+    line-height: 24px;
+}
